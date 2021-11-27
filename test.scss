@@ -1,0 +1,149 @@
+.section-recents {
+  &-all {
+    &-text {
+      &-title {
+        @include raleway;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 500;
+        color: #555555;
+      }
+      &-small {
+        @include montserrat;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        color: #8c8c8c;
+      }
+    }
+    &-cards {
+      &-card1 {
+        // &-photo {
+        // }
+        &-text {
+          &-title {
+            @include raleway;
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: 500;
+            color: #555555;
+          }
+          &-small {
+            @include montserrat;
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 300;
+            color: #8c8c8c;
+          }
+          &-a {
+            @include montserrat;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 300;
+            color: #c7b299;
+          }
+        }
+      }
+      &-card2 {
+        // &-photo {
+        // }
+        &-text {
+          &-title {
+            @include raleway;
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: 500;
+            color: #555555;
+          }
+          &-small {
+            @include montserrat;
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 300;
+            color: #8c8c8c;
+          }
+          &-a {
+            @include montserrat;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 300;
+            color: #c7b299;
+          }
+        }
+        &-card3 {
+          // &-photo {
+          // }
+          &-text {
+            &-title {
+              @include raleway;
+              font-size: 20px;
+              line-height: 1.2;
+              font-weight: 500;
+              color: #555555;
+            }
+            &-small {
+              @include montserrat;
+              font-size: 14px;
+              line-height: 22px;
+              font-weight: 300;
+              color: #8c8c8c;
+            }
+            &-a {
+              @include montserrat;
+              font-size: 14px;
+              line-height: 20px;
+              font-weight: 300;
+              color: #c7b299;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// //=== Footer ===
+// .section-footer {
+//   background-color: #191919;
+//   &-all {
+//     &-waxom {
+//       &-lable {
+//         &-1 {
+//         }
+//         &-2 {
+//         }
+//       }
+//       &-text {
+//       }
+//       &-rm {
+//       }
+//     }
+//     &-recent {
+//       &-posts {
+//       }
+//       &-text1 {
+//         &-date {
+//         }
+//         &-p {
+//         }
+//       }
+//     }
+//     &-twitter {
+//       &-posts {
+//       }
+//       &-text1 {
+//         &-p {
+//         }
+//         &-time {
+//         }
+//       }
+//     }
+//     &-widget {
+//       &-text {
+//       }
+//       &-img {
+//       }
+//     }
+//   }
+// }
+// //=== Footer ===

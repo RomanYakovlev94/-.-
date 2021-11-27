@@ -1,0 +1,145 @@
+.section-header-button {
+  margin: 0 auto;
+  display: inline-block;
+  color: #fff;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 800;
+  text-transform: uppercase;
+  width: 170px;
+  height: 53px;
+  background-color: #998675;
+  box-shadow: inset 0px -2px 0px 0px #736357;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+.section-header-button:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1.5em;
+  height: 100%;
+  background-color: rgba(#fff, 0.6);
+  transform: translateX(-4em) skewX(-45deg);
+  transition: 0.5s;
+}
+
+.section-header-button:hover:before {
+  animation: move-light 0.5s;
+}
+
+@keyframes move-light {
+  from {
+    transform: translateX(-4em) skewX(-45deg);
+  }
+  to {
+    transform: translateX(15em) skewX(-45deg);
+  }
+}
+
+
+
+.section-recents {
+  &-all{
+    &-text {
+      &-title {
+        @include raleway;
+        font-size: 20px;
+        line-height: 1.2;
+        font-weight: 500;
+        color: #555555;
+      }
+      &-small {
+        @include montserrat;
+        font-size: 14px;
+        line-height: 22px;
+        font-weight: 300;
+        color: #8c8c8c;     
+      }
+    }
+    &-cards {
+      &-card1 {
+        // &-photo {
+        // }
+        &-text {
+          &-title{
+            @include raleway;
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: 500;
+            color: #555555;
+          }
+          &-small{
+            @include montserrat;
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 300;
+            color: #8c8c8c;
+          }
+          &-a{
+            @include montserrat;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 300;
+            color: #c7b299;
+          }
+        }
+      }
+      &-card2 {
+        // &-photo {
+        // }
+        &-text {
+          &-title{
+            @include raleway;
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: 500;
+            color: #555555;
+          }
+          &-small{
+            @include montserrat;
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 300;
+            color: #8c8c8c;
+          }
+          &-a{
+            @include montserrat;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 300;
+            color: #c7b299;
+          }
+      }
+      &-card3 {
+        // &-photo {
+        // }
+        &-text {
+          &-title{
+            @include raleway;
+            font-size: 20px;
+            line-height: 1.2;
+            font-weight: 500;
+            color: #555555;
+          }
+          &-small{
+            @include montserrat;
+            font-size: 14px;
+            line-height: 22px;
+            font-weight: 300;
+            color: #8c8c8c;
+          }
+          &-a{
+            @include montserrat;
+            font-size: 14px;
+            line-height: 20px;
+            font-weight: 300;
+            color: #c7b299;
+          }
+        }  
+      }
+    }
+  } 
+}
